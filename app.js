@@ -3,8 +3,6 @@ const Enmap = require('enmap');
 const schedule = require('node-schedule');
 const client = new Discord.Client();
 
-client.config = require('./config.json');
-
 client.clientData = new Enmap({
   name: 'clientData',
   fetchAll: false,
