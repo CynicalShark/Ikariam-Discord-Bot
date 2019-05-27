@@ -1,1 +1,1 @@
-Worker: node package.js
+Worker: node package.json
